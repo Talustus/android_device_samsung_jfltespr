@@ -21,7 +21,7 @@
 #
 
 # inherit from common JF
--include device/samsung/jflte-common/BoardConfigCommon.mk
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jfltespr/BoardConfigVendor.mk
@@ -31,8 +31,8 @@ TARGET_OTA_ASSERT_DEVICE := jfltespr
 
 # Kernel
 TARGET_KERNEL_SOURCE         := kernel/samsung/jf
-TARGET_KERNEL_CONFIG         := jf_spr_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := jf_defconfig
+TARGET_KERNEL_CONFIG         := jf_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := jf_spr_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 
 # TWRP flags
