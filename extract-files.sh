@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=i9505
+export DEVICE=jfltespr
 export VENDOR=samsung
 ./../jf-common/extract-files.sh $@
